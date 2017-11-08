@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/simple-drools.iml" filepath="$PROJECT_DIR$/simple-drools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simpleDrools-client/simpleDrools-client.iml" filepath="$PROJECT_DIR$/simpleDrools-client/simpleDrools-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simpleDrools-server/simpleDrools-server.iml" filepath="$PROJECT_DIR$/simpleDrools-server/simpleDrools-server.iml" />
+    </modules>
+  </component>
+</project>
