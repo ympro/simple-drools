@@ -32,6 +32,7 @@ public class RuleEngineImpl<T> implements RuleEngine<T> {
      */
     public void initEngine() throws Exception {
         // 设置时间格式
+        System.setProperty("drools.dateformat", "yyyy-MM-dd HH:mm:ss");
         PackageBuilder backageBuilder = getPackageBuilderFromDrlFile();
         ruleBase.addPackages(backageBuilder.getPackages());
     }
@@ -65,7 +66,7 @@ public class RuleEngineImpl<T> implements RuleEngine<T> {
             // required activate rule`name contains factName
             public boolean accept(Activation activation) {
                 String factName = fact.getClass().getSimpleName();
-                return !activation.getRule().getName().contains(factName);
+                return activation.getRule().getName().contains(factName);
             }
         });
 
