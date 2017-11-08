@@ -22,6 +22,18 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+        <!--Guava包的依赖支持-->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+        </dependency>
+
+        <!--Gson支持-->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+        </dependency>
+
         <!-- drools -->
         <dependency>
             <groupId>org.drools</groupId>
